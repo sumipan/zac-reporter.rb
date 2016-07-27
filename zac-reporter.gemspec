@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'zac/reporter.rb/version'
+require 'zac/reporter/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "zac-reporter.rb"
-  spec.version       = Zac::Reporter.rb::VERSION
-  spec.authors       = ["takashi nagayasu"]
-  spec.email         = ["nagayasu@kayac.com"]
+  spec.name          = "zac-reporter"
+  spec.version       = Zac::Reporter::VERSION
+  spec.authors       = ["sumipan"]
+  spec.email         = ["sumipan@g-onion.org"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{zac report tools}
+  spec.description   = %q{zac report tools}
+  spec.homepage      = "https://github.com/sumipan/zac-reporter"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
